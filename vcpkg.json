@@ -65,7 +65,17 @@
       ]
     },
     "skyrim-vr": {
-      "description": "Build platform for Skyrim VR."
+      "description": "Build platform for Skyrim VR.",
+      "dependencies": [
+        {
+          "name": "commonlibvr",
+          "platform": "windows"
+        },
+        {
+          "name": "sksevr",
+          "platform": "windows"
+        }
+      ]
     }
   }
 }
