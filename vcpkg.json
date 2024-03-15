@@ -9,6 +9,7 @@
     "cpp-httplib",
     "zlib",
     "spdlog",
+    "boost",
     "catch2",
     "sparsepp",
     "slikenet",

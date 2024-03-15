@@ -78,7 +78,7 @@ function(link_vcpkg_dependencies)
       elseif(SKYRIM_AE)
         find_package(commonlibae REQUIRED CONFIGS CommonLibSSEConfig.cmake)
       elseif(SKYRIM_VR)
-	      find_package(commonlibvr REQUIRED CONFIGS CommonLibVRConfig.cmake)
+	      #find_package(commonlibvr REQUIRED CONFIGS CommonLibVRConfig.cmake)
       endif()
 
       find_package(Boost MODULE REQUIRED)
