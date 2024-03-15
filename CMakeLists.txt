@@ -49,7 +49,7 @@ if(NOT "${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_SOURCE_DIR}/build")
   message(FATAL_ERROR "${msg}")
 endif()
 
-option(SKYRIM_SE "Legacy Skyrim SE (1.5) build" ON)
+option(SKYRIM_SE "Legacy Skyrim SE (1.5) build" OFF)
 option(SKYRIM_AE "Skyrim AE (1.6) build" OFF)
 option(SKYRIM_VR "Skyrim VR (1.4) build" ON)
 
