@@ -89,8 +89,8 @@ function(link_vcpkg_dependencies)
 
       if(SKYRIM_AE)
       	target_link_libraries(${target}	PRIVATE	Boost::headers CommonLibSSE::CommonLibSSE robin_hood::robin_hood)
-      else(SKYRIM_VR)
-      	target_link_libraries(${target}	PRIVATE	Boost::headers CommonLibVR::CommonLibVR robin_hood::robin_hood)
+      else()
+	target_link_libraries(${target}	PRIVATE	Boost::headers CommonLibVR robin_hood::robin_hood)
       endif()
 
       find_package(directxtk CONFIG REQUIRED)
